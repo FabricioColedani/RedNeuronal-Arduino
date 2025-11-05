@@ -2,8 +2,9 @@
 **Actividad del 05/11/2025**
 
 Implementación y análisis del proyecto original:  
-👉 [Programa un coche Arduino con Inteligencia Artificial](https://www.aprendemachinelearning.com/programa-un-coche-arduino-con-inteligencia-artificial/)
 
+👉 [Programa un coche Arduino con Inteligencia Artificial](https://www.aprendemachinelearning.com/programa-un-coche-arduino-con-inteligencia-artificial/)
+  
 ---
 
 ## 🧠 1. Arquitecturas observadas
@@ -81,29 +82,18 @@ Cada miembro generó una variante en la regla de la quinta salida (`motor5`):
 | **Tomas Urquia** | `1` si `sensor_inclinacion == 1` | Alerta por inclinación derecha |
 | **Nicolas Moreno** | `1` si `sensor_luz == 1` **y** `sensor_inclinacion == 0` | Activa solo en luz óptima y nivelado |
 
-👉 Las tablas completas están en el archivo `tablas.json`.
+👉 Las tablas están en este archivo excel
+- https://docs.google.com/spreadsheets/d/1aK1TvannO47bVlOhl1PU8Wm3iS7VhvXVB0-cDoDJx3Q/edit?usp=sharing.
 
 ---
 
-## 💾 6. Resultados del entrenamiento
-
-Se observó convergencia estable del error y respuestas coherentes con las reglas definidas.  
-La red fue capaz de generalizar correctamente combinaciones no vistas en el entrenamiento.
-
-![Gráfica de costo original](cost_original.png)  
-![Gráfica de costo extendido](cost_extended.png)
-
----
-
-## 🧰 7. Archivos del repositorio
+## 🧰 Archivos del repositorio
 
 | Archivo | Descripción |
 |----------|-------------|
-| `train_reproducible.py` | Script de entrenamiento de la red |
-| `tables.json` | Tablas de verdad para los 5 integrantes |
-| `summary.json` | Resultados y predicciones |
+| `entrenamiento.py` | Script de entrenamiento de la red |
+| `resumen.json` | Resultados y predicciones |
 | `README.md` | Este resumen |
-| `sketch.ino` *(opcional)* | Código Arduino con pesos finales |
 
 ---
 
