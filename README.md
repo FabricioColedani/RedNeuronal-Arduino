@@ -47,9 +47,9 @@ Se ejecutó el entrenamiento en Python replicando la estructura del Colab origin
 - Activación `tanh`, tasa de aprendizaje `0.03`, error cuadrático medio (MSE)
 
 Archivos generados:
-- `train_reproducible.py` — script reproducible de entrenamiento
-- `summary.json` — resumen de resultados y predicciones
-- `tables.json` — tablas de verdad por integrante
+- `entranamiento.py` — script reproducible de entrenamiento
+- `resumen.json` — resumen de resultados y predicciones
+- `tablas.json` — tablas de verdad por integrante
 
 ---
 
