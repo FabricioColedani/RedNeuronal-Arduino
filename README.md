@@ -98,6 +98,6 @@ Cada miembro generó una variante en la regla de la quinta salida (`motor5`):
 ---
 
 ## 🧾 8. Autores
-- Fabricio Coledani, Dillan Perez, Nicolas Moreno, Tomas Urquia y Benjamin Zazúa
+- Fabricio Coledani, Dillan Perez, Nicolas Moreno, Tomas Urquia, Noel Chimbo y Benjamin Zazúa
 - Carrera: Programación Full Stack – Universidad Provincial de Córdoba
 - Fecha: 05/11/2025
