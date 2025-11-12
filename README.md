@@ -78,7 +78,7 @@ Cada miembro generó una variante en la regla de la quinta salida (`motor5`):
 |-------------|----------------|-------------|
 | **Fabricio Coledani** | `1` si `sensor_luz == -1` **y** obstáculo centro | Alerta por oscuridad + obstáculo |
 | **Dillan Perez Diaz** | Siempre `0` | No usa la salida extra |
-| **Benjamin Zazúa** | `1` si `sensor_luz == -1` **o** `sensor_inclinacion != 0` | Más sensible (oscuridad o inclinación) |
+| **Benjamin Zazúa y Noel Chimbo** | `1` si `sensor_luz == -1` **o** `sensor_inclinacion != 0` | Más sensible (oscuridad o inclinación) |
 | **Tomas Urquia** | `1` si `sensor_inclinacion == 1` | Alerta por inclinación derecha |
 | **Nicolas Moreno** | `1` si `sensor_luz == 1` **y** `sensor_inclinacion == 0` | Activa solo en luz óptima y nivelado |
 
